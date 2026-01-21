@@ -12,7 +12,7 @@ Add to your `flake.nix`:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     xmcl-nix = {
-      url = "github:VolodiaKraplich/XMCL-Nix";
+      url = "github:CrystalNetworkST/XMCL-Nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -36,12 +36,12 @@ Add to your `flake.nix`:
 
 Using `nix profile`:
 ```bash
-nix profile install github:VolodiaKraplich/XMCL-Nix
+nix profile install github:CrystalNetworkST/XMCL-Nix
 ```
 
 Or run temporarily:
 ```bash
-nix run github:VolodiaKraplich/XMCL-Nix
+nix run github:CrystalNetworkST/XMCL-Nix
 ```
 
 ## Features
